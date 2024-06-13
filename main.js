@@ -8,7 +8,11 @@ console.log(numbers);
 
 
 const friends = ["Balam", "Kalam", "Abul", "Kashem"]
-friends.push("Khailam")
-console.log(friends);
-friends.pop()
-console.log(friends);
+// friends.push("Khailam")
+// console.log(friends);
+// friends.pop()
+// console.log(friends);
+// friends.shift();
+// console.log(friends);
+
+console.log(friends.includes('Kalam'));
