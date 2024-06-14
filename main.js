@@ -21,14 +21,12 @@ const friends = ["Balam", "Kalam", "Abul", "Kashem"]
 let someNumber = 33;
 
 let stringNumber = String(someNumber);
-console.log(stringNumber);
+// console.log(stringNumber);
 
 
+// ********* Operation ************
 
+let value = 3
+let negValue = -value
 
-
-
-
-
-
-
+console.log(negValue);
