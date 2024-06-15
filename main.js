@@ -29,4 +29,9 @@ let stringNumber = String(someNumber);
 let value = 3
 let negValue = -value
 
-console.log(negValue);
+// console.log(negValue);
+
+const name = "Sami";
+const repoCount = 30;
+
+console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
