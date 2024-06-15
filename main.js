@@ -34,4 +34,25 @@ let negValue = -value
 const name = "Sami";
 const repoCount = 30;
 
-console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
+// console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
+
+
+// +++++++++++++ string ++++++++++++
+
+
+const gameName = new String('alsami-sm')
+
+
+const newString = gameName.substring(0 ,4) 
+console.log(newString);
+
+
+
+const newStringOne = "    Sami    "
+
+// console.log(newStringOne.trim());
+
+
+// ++++++++++++++++++ Array +++++++++++++++++
+
+
