@@ -55,4 +55,10 @@ const newStringOne = "    Sami    "
 
 // ++++++++++++++++++ Array +++++++++++++++++
 
+const marvelHeros = ["Thor", "Ironman", "Spiderman"]
+const dcHeros = ["Superman", "Batman", "Flash"]
 
+
+marvelHeros.push(dcHeros);
+
+console.log(marvelHeros);
