@@ -87,10 +87,29 @@
 // // ++++++++ LOOP +++++++++
 
 
-const numbers = [12, 13, 14, 15, 16, 17]
+// const numbers = [12, 13, 14, 15, 16, 17]
 
-console.log(numbers);
+// console.log(numbers);
 
-for (const num of numbers) {
-    console.log(num);
-}
+// for (const num of numbers) {
+//     console.log(num);
+// }
+
+
+// let num = 1
+// let sum = 0
+
+// while (num <= 10){
+//     console.log(num)
+//     sum = sum + num;
+//     console.log('sum:', sum);
+//     num++
+// }
+
+
+
+ for (let i=0; i<20; i++){
+    if(i%2!==0){
+        console.log(i);
+    }
+ }
