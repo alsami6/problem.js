@@ -117,21 +117,71 @@
 
 //  restart programing hero course
 
-const salary = 25000;
-const isBCS = true;
-const height = 67;
+// const salary = 25000;
+// const isBCS = true;
+// const height = 67;
+// const hasCar = true;
 
 
-// if(salary > 20000  && height > 6 && ){
-//     console.log('Shupatro');
+// // if(salary > 20000  && height > 6 && ){
+// //     console.log('Shupatro');
+// // }
+// // else{
+// //     console.log('onno patro kujhi');
+// // }
+
+
+// if ((salary >= 25000 && height > 65 && hasCar == false) || isBCS == true){
+//     console.log('esho baba kobul');
+// }else{
+//     console.log("no entry");
 // }
-// else{
-//     console.log('onno patro kujhi');
+
+
+// Mulit level condition
+
+// const price = 5000;
+
+// if (price >= 4000){
+//     const discount = price * 10/100;
+//     const pay = price-discount;
+//     console.log(discount);
+//     console.log(pay);
+// }
+
+// const age = ;
+// const price = 500;
+
+// if (age <= 12){
+//     console.log('You can eat for free');
+// }else if(age >= 60){
+//     const discount = price * 50 / 100;
+//     const payAmount = price - discount;
+//     console.log(payAmount);
+// }else{
+//     console.log(price);
 // }
 
 
-if (salary >= 25000 && height > 65 && isBCS == true){
-    console.log('esho baba kobul');
-}else{
-    console.log("no entry");
-}
+
+//  +++++++++++ Grade system +++++++++++++
+
+// const mark = 100;
+
+// if(mark >= 80){
+//     console.log("You got A+");
+// }else if(mark >= 70){
+//     console.log("You got A");
+// }else if(mark >= 60){
+//     console.log("You got A-");
+// }else if(mark >= 50){
+//     console.log("You got B");
+// }else if(mark >= 40){
+//     console.log("You got C");
+// }else if(mark >= 33){
+//     console.log("You got D");
+// }else{
+//     console.log("You failed");
+// }
+
+
