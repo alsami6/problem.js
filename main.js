@@ -108,8 +108,30 @@
 
 
 
- for (let i=0; i<20; i++){
-    if(i%2!==0){
-        console.log(i);
-    }
- }
+//  for (let i=0; i<20; i++){
+//     if(i%2!==0){
+//         console.log(i);
+//     }
+//  }
+
+
+//  restart programing hero course
+
+const salary = 25000;
+const isBCS = true;
+const height = 67;
+
+
+// if(salary > 20000  && height > 6 && ){
+//     console.log('Shupatro');
+// }
+// else{
+//     console.log('onno patro kujhi');
+// }
+
+
+if (salary >= 25000 && height > 65 && isBCS == true){
+    console.log('esho baba kobul');
+}else{
+    console.log("no entry");
+}
