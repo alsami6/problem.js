@@ -185,5 +185,30 @@
 // }
 
 
-const capital = 'Dhaka'
-console.log(capital.length);
+// const capital = 'Dhaka'
+// console.log(capital.length);
+// console.log(capital[3]);
+
+// const drink = 'water';
+// const liquid = 'water '
+
+// if(drink.trim() === liquid.trim()){
+//     console.log("pani er opr nam jibon")
+// }else{
+//     console.log("somdre pani ase khaite pari na");
+// }
+
+
+const address = 'andorkilla';
+const part = address.slice(2, 5)
+console.log(part);
+
+const sentence = "I am a good and hardworking person.";
+// console.log(sentence.split(' '));
+console.log(sentence.split('a'));
+
+const friendsStr = 'Rahim,khaim,Dhaim,Fahim,joker'
+const friends = friendsStr.split(',');
+console.log(friends);
+const realFriend = [ 'Rahim', 'khaim', 'Dhaim', 'Fahim', 'joker' ];
+console.log(realFriend.join(' '));
