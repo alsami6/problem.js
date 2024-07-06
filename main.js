@@ -199,16 +199,27 @@
 // }
 
 
-const address = 'andorkilla';
-const part = address.slice(2, 5)
-console.log(part);
+// const address = 'andorkilla';
+// const part = address.slice(2, 5)
+// console.log(part);
 
-const sentence = "I am a good and hardworking person.";
-// console.log(sentence.split(' '));
-console.log(sentence.split('a'));
+// const sentence = "I am a good and hardworking person.";
+// // console.log(sentence.split(' '));
+// console.log(sentence.split('a'));
 
-const friendsStr = 'Rahim,khaim,Dhaim,Fahim,joker'
-const friends = friendsStr.split(',');
-console.log(friends);
-const realFriend = [ 'Rahim', 'khaim', 'Dhaim', 'Fahim', 'joker' ];
-console.log(realFriend.join(' '));
+// const friendsStr = 'Rahim,khaim,Dhaim,Fahim,joker'
+// const friends = friendsStr.split(',');
+// console.log(friends);
+// const realFriend = [ 'Rahim', 'khaim', 'Dhaim', 'Fahim', 'joker' ];
+// console.log(realFriend.join(' '));
+
+
+const first = 'Abid';
+const last = 'Nabid';
+
+const fullName = first + ' ' + last;
+// console.log(fullName);
+const fullName2 = first.concat(' ').concat(last);
+console.log(fullName2);
+
+console.log(last.includes('a'));
