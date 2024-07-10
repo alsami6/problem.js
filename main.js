@@ -214,12 +214,43 @@
 // console.log(realFriend.join(' '));
 
 
-const first = 'Abid';
-const last = 'Nabid';
+// const first = 'Abid';
+// const last = 'Nabid';
 
-const fullName = first + ' ' + last;
-// console.log(fullName);
-const fullName2 = first.concat(' ').concat(last);
-console.log(fullName2);
+// const fullName = first + ' ' + last;
+// // console.log(fullName);
+// const fullName2 = first.concat(' ').concat(last);
+// console.log(fullName2);
 
-console.log(last.includes('a'));
+// console.log(last.includes('a'));
+
+// const sentence = "I am learning Web Dev.";
+
+// let reverse = '';
+// // for(const letter of sentence){
+// //     // console.log(letter);
+// //     reverse = letter + reverse;
+// // }
+// // console.log(reverse);
+
+// for(let i = 0; i < sentence.length; i++){
+//     // console.log(i);
+//     // console.log(sentence[i]);
+//     const letter = sentence[i];
+// }
+// console.log(letter);
+
+
+// let num = 0;
+// while(num <= 5){
+//     console.log("Re-Lreaning", num);
+//     num++;
+// }
+
+
+const okay = {
+    name: "sami",
+    health: "fine"
+}
+
+console.log(okay.health);
