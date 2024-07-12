@@ -248,9 +248,22 @@
 // }
 
 
-const okay = {
-    name: "sami",
-    health: "fine"
+// const okay = {
+//     name: "sami",
+//     health: "fine"
+// }
+
+// console.log(okay.health);
+
+
+
+
+const person_sodor = {
+    name: "Sodor Uddin",
+    age: 25,
+    profession: "developer",
+    salary: 25000,
+    married: true 
 }
 
-console.log(okay.health);
+console.log(person_sodor.profession);
