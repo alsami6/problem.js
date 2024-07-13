@@ -268,37 +268,68 @@
 
 // console.log(person_sodor.profession);
 
-const mySym = Symbol("key1")
+// const mySym = Symbol("key1")
 
-const jsUser = {
-    name: "Sami",
-    "full name": "Al Sami",
-    [mySym]: "mykey1",
-    age: 18,
-    location: "Dhaka",
-    email: "alsami1209@gmail.com",
-    isLoggedIn: false,
-    lastLogeinDays: ["Monday", "Saturday"]
+// const jsUser = {
+//     name: "Sami",
+//     "full name": "Al Sami",
+//     [mySym]: "mykey1",
+//     age: 18,
+//     location: "Dhaka",
+//     email: "alsami1209@gmail.com",
+//     isLoggedIn: false,
+//     lastLogeinDays: ["Monday", "Saturday"]
+// }
+
+// // console.log(jsUser["location"]);
+// // console.log(jsUser["full name"]);
+// // console.log(jsUser[mySym]);
+
+
+// jsUser.email = "alsami0055@gmail.com";
+// // Object.freeze(jsUser)
+// jsUser.email = "aibarchangehobena";
+// // console.log(jsUser["email"]);
+
+
+// jsUser.greeting = function(){
+//     console.log("hello mySelf Sami")
+// }
+
+// jsUser.greetingTwo = function(){
+//     console.log(`Hello my name is ${this.name}`);
+// }
+
+// console.log(jsUser.greeting());
+// console.log(jsUser.greetingTwo());
+
+
+// const tinderUser = new Object()   singe ton object
+
+const tinderUser = {}
+tinderUser.id = "123abc"
+tinderUser.name = "Sami"
+tinderUser.isLoggedIn = false
+
+// console.log(tinderUser);
+
+
+const regularUser = {
+    email: "some@gmail.com",
+    fullname:{
+        userfullname:{
+            firstname: "Al",
+            lastname: "Sami"
+        }
+    }
 }
 
-// console.log(jsUser["location"]);
-// console.log(jsUser["full name"]);
-// console.log(jsUser[mySym]);
+// console.log(regularUser.fullname.userfullname.lastname);
 
+const obj1 = {1: "a", 2: "b"}
+const obj2 = {3: "a", 4: "b"}
 
-jsUser.email = "alsami0055@gmail.com";
-// Object.freeze(jsUser)
-jsUser.email = "aibarchangehobena";
-// console.log(jsUser["email"]);
+// const obj3 = {obj1,obj2}
+// const obj3 = Object.assign({}, obj1, obj2)
 
-
-jsUser.greeting = function(){
-    console.log("hello mySelf Sami")
-}
-
-jsUser.greetingTwo = function(){
-    console.log(`Hello my name is ${this.name}`);
-}
-
-console.log(jsUser.greeting());
-console.log(jsUser.greetingTwo());
+console.log(obj3);
