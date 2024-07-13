@@ -292,10 +292,13 @@ jsUser.email = "aibarchangehobena";
 // console.log(jsUser["email"]);
 
 
-
-
 jsUser.greeting = function(){
     console.log("hello mySelf Sami")
 }
 
+jsUser.greetingTwo = function(){
+    console.log(`Hello my name is ${this.name}`);
+}
+
 console.log(jsUser.greeting());
+console.log(jsUser.greetingTwo());
