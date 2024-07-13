@@ -258,12 +258,44 @@
 
 
 
-const person_sodor = {
-    name: "Sodor Uddin",
-    age: 25,
-    profession: "developer",
-    salary: 25000,
-    married: true 
+// const person_sodor = {
+//     name: "Sodor Uddin",
+//     age: 25,
+//     profession: "developer",
+//     salary: 25000,
+//     married: true 
+// }
+
+// console.log(person_sodor.profession);
+
+const mySym = Symbol("key1")
+
+const jsUser = {
+    name: "Sami",
+    "full name": "Al Sami",
+    [mySym]: "mykey1",
+    age: 18,
+    location: "Dhaka",
+    email: "alsami1209@gmail.com",
+    isLoggedIn: false,
+    lastLogeinDays: ["Monday", "Saturday"]
 }
 
-console.log(person_sodor.profession);
+// console.log(jsUser["location"]);
+// console.log(jsUser["full name"]);
+// console.log(jsUser[mySym]);
+
+
+jsUser.email = "alsami0055@gmail.com";
+// Object.freeze(jsUser)
+jsUser.email = "aibarchangehobena";
+// console.log(jsUser["email"]);
+
+
+
+
+jsUser.greeting = function(){
+    console.log("hello mySelf Sami")
+}
+
+console.log(jsUser.greeting());
