@@ -390,13 +390,27 @@
 // }
 
 
-const friends = ["Elon", "Bill", "Mark", "Waren"];  
+// const friends = ["Elon", "Bill", "Mark", "Waren"];  
 
-for(const friend of friends){
-    // console.log(friend);
+// for(const friend of friends){
+//     // console.log(friend);
+// }
+
+
+// for(let i = 0; i < friends.length; i++){
+//     console.log(friends[i]);
+// }
+
+
+
+// ++++++  function +++++++
+
+const number = 45;
+
+function fanOffKor(){
+    console.log('bosa theke uthe dara');
+    console.log('Walk towords the fan');
+    console.log('click the switch');
 }
 
-
-for(let i = 0; i < friends.length; i++){
-    console.log(friends[i]);
-}
+fanOffKor()
