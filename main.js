@@ -306,30 +306,85 @@
 
 // const tinderUser = new Object()   singe ton object
 
-const tinderUser = {}
-tinderUser.id = "123abc"
-tinderUser.name = "Sami"
-tinderUser.isLoggedIn = false
+// const tinderUser = {}
+// tinderUser.id = "123abc"
+// tinderUser.name = "Sami"
+// tinderUser.isLoggedIn = false
 
-// console.log(tinderUser);
+// // console.log(tinderUser);
 
 
-const regularUser = {
-    email: "some@gmail.com",
-    fullname:{
-        userfullname:{
-            firstname: "Al",
-            lastname: "Sami"
-        }
-    }
-}
+// const regularUser = {
+//     email: "some@gmail.com",
+//     fullname:{
+//         userfullname:{
+//             firstname: "Al",
+//             lastname: "Sami"
+//         }
+//     }
+// }
 
 // console.log(regularUser.fullname.userfullname.lastname);
 
-const obj1 = {1: "a", 2: "b"}
-const obj2 = {3: "a", 4: "b"}
+// const obj1 = {1: "a", 2: "b"}
+// const obj2 = {3: "a", 4: "b"}
 
-// const obj3 = {obj1,obj2}
-// const obj3 = Object.assign({}, obj1, obj2)
+// // const obj3 = {obj1,obj2}
+// // const obj3 = Object.assign({}, obj1, obj2)
 
-console.log(obj3);
+// console.log(obj3);
+
+
+// const computer = {
+//     brand: "Lenovo",
+//     price: 35000,
+//     processor: 'intel',
+//     hdd: '512gb'
+// }
+
+
+// const keys = Object.keys(computer)
+// console.log(keys);
+
+
+// const value = Object.values(computer)
+// console.log(value);
+
+
+// const college = {
+//     name: 'vnc',
+//     class: [11, 12],
+//     events: ['science fair', 'bijoy dibosh', '21 fab'],
+//     unique:{
+//         color: 'blue',
+//         result: {
+//             gpa: 5,
+//             merit: 'top', 
+//         }
+//     }
+// }
+
+// college.unique.result.merit ='top top top most'
+
+// console.log(college.unique.result.merit);
+
+
+const mobile = {
+    brand: 'Samsung',
+    price: 25000,
+    color: 'Black',
+    camera: '12mp',
+    isNew: true
+}
+
+for(const prop in mobile){
+    // console.log(prop);
+    // console.log(mobile[prop]);
+}
+
+const keys = Object.keys(mobile);
+console.log(keys);
+
+for(const key of keys){
+    console.log(key, mobile[key]);
+}
