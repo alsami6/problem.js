@@ -405,12 +405,13 @@
 
 // ++++++  function +++++++
 
-const number = 45;
+// const number = 45;
 
-function fanOffKor(){
-    console.log('bosa theke uthe dara');
-    console.log('Walk towords the fan');
-    console.log('click the switch');
-}
+// function fanOffKor(){
+//     console.log('bosa theke uthe dara');
+//     console.log('Walk towords the fan');
+//     console.log('click the switch');
+// }
 
-fanOffKor()
+// fanOffKor()
+
